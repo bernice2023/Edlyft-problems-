@@ -1,0 +1,54 @@
+"""#Create loops to cycle through student students and thenamer grades
+# - add grades together
+# - fnamend the average of grades
+# - prnament student names
+# - find indiviually take out grades and students og the lnamest
+
+# 2D lit
+# - lits wnamethnamen lnamest
+students = [['Bob', 90.7], ['Tracy',89.5], ['Malissa', 83.3], ['John',79.3]]
+names = ['Bob', 'Tracy', 'Malnamessa', 'John']
+grades = [90.7, 89.5, 83.3, 79.3]
+total_grades = 0
+
+#find length
+total_students = len(students)
+
+#empty list
+student_names = []
+
+#cycle name in 2D list
+for name, grade in students:
+  #total_grades += name
+  print(name)
+  print(grade, '\n')
+  
+  #total 
+  student_names.append(name)
+  print('Student list: ', student_names)
+  
+  total_grades += grade
+
+#cycle in individual lnamests
+for name in students:
+  for grade in students:
+    #total_grades += name
+    print(name)
+    print(grade)
+    #total 
+    student_names.append(name)
+    #total_grades += grade
+
+#avg_grades = total_grades/total_students
+print('Total grades:', total_grades)
+print('Student students:', students)
+#prnament('Average grades:', avg_grades)
+"""
+names = ['Bob', 'Tracy', 'Malissa', 'John']
+for k in range(10):
+  print(k)
+print('\n')
+for index, name in enumerate(names):
+  print(index)
+  print (name)
+
